@@ -1,5 +1,6 @@
 import accordionProject from './assets/projects/accordion.png'
 import comingSoon from './assets/projects/coming-soon-img.png'
+import menuProject from "./assets/projects/menu.png"
 
 const projectsList = [
   {
@@ -13,9 +14,9 @@ const projectsList = [
   {
     id: 2,
     title: 'Menu',
-    bgImage: comingSoon,
-    website_link: '',
-    github_link: '',
+    bgImage: menuProject,
+    website_link: 'https://menu-react-js-project.vercel.app/',
+    github_link: 'https://github.com/hamza-yameen/ReactJs-projects/tree/main/02-menu',
   },
   {
     id: 3,
