@@ -3,6 +3,7 @@ import comingSoon from "./assets/projects/coming-soon-img.png";
 import menuProject from "./assets/projects/menu.png";
 import unsplashImagesProject from "./assets/projects/unsplash-images.png";
 import foodCartImage from "./assets/projects/food-cart.png";
+import beachResortImage from "./assets/projects/beach-resort.png";
 
 const projectsList = [
   {
@@ -39,6 +40,13 @@ const projectsList = [
   },
   {
     id: 5,
+    title: "Beach Resort",
+    bgImage: beachResortImage,
+    website_link: "https://react-beach-resort-pro.netlify.app/",
+    github_link: "https://github.com/hamza-yameen/ReactJs-projects/tree/main/05-beach-resort-hotel-master",
+  },
+  {
+    id: 6,
     title: "No Title",
     bgImage: comingSoon,
     website_link: "dummy",
